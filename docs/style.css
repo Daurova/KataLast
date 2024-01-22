@@ -388,7 +388,7 @@ h1 {
   margin-left: 10px; }
 
 .logo-button-go--white {
-  background-image: url("./static/dropdownpink.svg");
+  background-image: url(./static/dropdownwhite.svg);
   background-color: transparent;
   height: 20px;
   background-repeat: no-repeat;
@@ -1213,7 +1213,7 @@ label:hover {
   background-color: transparent;
   margin-right: 20px;
   margin-top: 8px;
-  background-image: url(./static/dropdownwhite.svg);
+  background-image: url(./static/dropdownpink.svg);
   background-size: auto; }
 
 .logo-button-go--border--none:hover {
