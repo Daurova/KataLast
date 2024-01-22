@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <title>CPS</title>
+  <link rel="styles" href="../src/scss/style.scss">
+  <title>CPS</title>
 <link href="style.css" rel="stylesheet"></head>
 
 <body>
-   <section class="outer-wrapper">
+  <div class="outer-wrapper">
     <header class="menu">
         <div class="menu__cont">
             <div class="menu__left">
@@ -76,7 +77,6 @@
         <div class="text__image"><img src="./img/_MG_3223.jpg" alt="Логотип с графиком работы" class="text__image--pic"></div>
     </article>
 
-    </section>
  
     <header>
         <h1>ремонт техники различных брендов</h1>
@@ -157,8 +157,7 @@
         </button>
       </label>
     </div>
-    
-    
+        
 
     <header>
       <h1>ремонт различных видов техники</h1>
@@ -228,17 +227,17 @@
         </button>
       </label>
     </div>
-    
-
-
 
 
     <header>
       <h1>цены на услуги</h1>
     </header>
-    <article class="">
-      <span><p>Ремонтные услуги</p></span><span class="swiper-3-cap__right"><p>Цена</p><p>Срок</p></span>
-    </article>
+    <p class="swiper-3-cap">
+      <span class="col--1">Ремонтные услуги</span>
+      <span class="col--2">Цена</span>
+      <span class="col--3">Срок</span>
+      <span class="col--4"></span>
+    </p>
 
 
 
@@ -247,45 +246,65 @@
  
  <div class="swiper">
   
-  <div class="swiper-wrapper swiper-wrapper--4">
+  <div class="swiper-wrapper swiper-wrapper--4" id="swiper-wrapper--4">
     
-      <div class="swiper-slide">
-        <div>
+      <div class="swiper-slide swiper-slide--3">
+        <div class="width--100">
           <div class="brand-list--3">
-            <div class="repair-devices">Ремонт ноутбуков</div>
-            <button class="logo-button-go"></button>
+            <div class="brand-list__repair-price">
+              <span class="swiper3__add-text">Ремонтные услуги</span><span class="col--1"> Диагностика</span>
+              <span class="swiper3__add-text">Цена</span><span class="col--2">Бесплатно</span>
+              <span class="swiper3__add-text">Срок</span><span class="col--3">30 мин</span>
+              <label class="button-send button-send--swiper3">Заказать<button class="logo-button-go--white"></button></label>
+            </div>
+          </div>
+         </div>
+      </div>
+      <div class="swiper-slide swiper-slide--3">
+        <div class="width--100">
+          <div class="brand-list--3">
+            <div class="brand-list__repair-price">
+              <span class="swiper3__add-text">Ремонтные услуги</span><span class="col--1"> Замена дисплея</span>
+              <span class="swiper3__add-text">Цена</span><span class="col--2">1000 &#8381;</span>
+              <span class="swiper3__add-text">Срок</span><span class="col--3">30-120  мин</span>
+              <label class="button-send button-send--swiper3">Заказать<button class="logo-button-go--white"></button></label>
+            </div>          
+           </div>
+        </div>
+      </div>  
+      <div class="swiper-slide swiper-slide--3">
+        <div class="width--100">
+          <div class="brand-list--3">
+            <div class="brand-list__repair-price">
+              <span class="swiper3__add-text">Ремонтные услуги</span><span class="col--1"> Замена полифонического динамика</span>
+              <span class="swiper3__add-text">Цена</span><span class="col--2">1000 &#8381;</span>
+              <span class="swiper3__add-text">Срок</span><span class="col--3">30-120  мин</span>
+              <label class="button-send button-send--swiper3">Заказать<button class="logo-button-go--white"></button></label>
+            </div>          
           </div>
         </div>
       </div>
-      <div class="swiper-slide">
-        <div>
+      <div class="swiper-slide swiper-slide--3">
+        <div class="width--100">
           <div class="brand-list--3">
-            <div class="repair-devices">Ремонт планшетов</div>
-            <button class="logo-button-go"></button>
+            <div class="brand-list__repair-price">
+              <span class="swiper3__add-text">Ремонтные услуги</span><span class="col--1"> Тестирование с выдачей технического заключения</span>
+              <span class="swiper3__add-text">Цена</span><span class="col--2">1000 &#8381;</span>
+              <span class="swiper3__add-text">Срок</span><span class="col--3">30-120  мин</span>
+              <label class="button-send button-send--swiper3">Заказать<button class="logo-button-go--white"></button></label>
+            </div>
           </div>
         </div>
       </div>
-      <div class="swiper-slide">
-        <div>
+      <div class="swiper-slide swiper-slide--3">
+        <div class="width--100">
           <div class="brand-list--3">
-            <div class="repair-devices">Ремонт ПК</div>
-            <button class="logo-button-go"></button>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div>
-          <div class="brand-list--3">
-            <div class="repair-devices">Ремонт мониторов</div>
-            <button class="logo-button-go"></button>
-          </div>
-        </div>
-      </div>
-      <div class="swiper-slide">
-        <div>
-          <div class="brand-list--3">
-            <div class="repair-devices">Ремонт смартфонов</div>
-            <button class="logo-button-go"></button>
+            <div class="brand-list__repair-price">
+              <span class="swiper3__add-text">Ремонтные услуги</span><span class="col--1"> Замена программного обеспечения</span>
+              <span class="swiper3__add-text">Цена</span><span class="col--2">1000 &#8381;</span>
+              <span class="swiper3__add-text">Срок</span><span class="col--3">30-120  мин</span>
+              <label class="button-send button-send--swiper3">Заказать<button class="logo-button-go--white"></button></label>
+            </div>
           </div>
         </div>
       </div>
@@ -296,18 +315,11 @@
   </div>
 
 
-      <div class="show--3">
-        <label class="button-alignment--3">
-          <div class="show-hide-arrow--3 show-arrow--3"></div>
-          <button class="button-show-hide--3" id="hide--3">
-            <span class="show-to-hide--3">Показать все</span>
-            <span class="hide-to-show--3">Скрыть</span>
-          </button>
-        </label>
-      </div>
+
       <p>Все цены указаны с учетом НДС. Стоимость ремнонта указана 
         на единичную услугу. Для получения коммерческого предложния 
         на постоянное обслуживание оставьте заявку</p>
+      <div class="align-content"><p>Получить коммерческое предложение</p><p></p><div class="logo-button-go--border--none"><p></p></div></div>
 
 
       
@@ -323,7 +335,7 @@
           <p>Информация, размещенная на данной странице, не является публичной офертой</p>
         </div>
       </footer>
-    
+</div>    
 
 
 <div class="left-container remove--left-cont" id="left-container">
@@ -338,7 +350,7 @@
                  <div><button class="menu__right--button--search"></button></div>
              </div>
          </header>
-         <header>
+         <header class="modal-menu__top">
              <nav class="services-nav">
                  <ul class="services-nav__list">
                      <li>
@@ -453,42 +465,24 @@
             </div>
         </form>
 
-      </section>
-
+      
+     </section></div>
 
      </div>
-         </div>
+         
         
 
 
 
-     <div class="blurred"></div>
+     <div class="blurred close-blurred"></div>
+     
 
     
     
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
     <script>
-   /*let swiper = new Swiper('.swiper', {
-  // Optional parameters
- 
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
-
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-});*/
 
 
 
@@ -525,7 +519,7 @@ function handleSwipers() {
     swipers = [];
   }
 }
-
+handleSwipers();
 window.addEventListener('resize', handleSwipers);
 
 
