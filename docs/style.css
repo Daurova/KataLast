@@ -388,7 +388,7 @@ h1 {
   margin-left: 10px; }
 
 .logo-button-go--white {
-  background-image: url("/src/img/dropdownwhite.svg");
+  background-image: url("./static/dropdownpink.svg");
   background-color: transparent;
   height: 20px;
   background-repeat: no-repeat;
@@ -1118,14 +1118,14 @@ div.swiper-slide--3 {
   margin-left: 10px;
   margin-right: 10px;
   background-color: transparent;
-  background-image: url(/src/img/Grouplogo.svg);
+  background-image: url(./static/Grouplogo.svg);
   width: 97px;
   height: 51px;
   border: none;
   margin: 10px; }
 
 .menu__left--button--cross {
-  background-image: url(/src/img/cross.svg);
+  background-image: url(./static/cross.svg);
   background-color: #FF3E79;
   width: 40px;
   height: 40px;
@@ -1138,7 +1138,7 @@ div.swiper-slide--3 {
   margin: 15px; }
 
 .menu__right--button--search {
-  background-image: url(/src/img/search.svg);
+  background-image: url(./static/search.svg);
   background-color: #FF3E79;
   width: 40px;
   height: 40px;
@@ -1151,7 +1151,7 @@ div.swiper-slide--3 {
   margin: 15px; }
 
 .menu__bottom--button--tel {
-  background-image: url(/src/img/call.svg);
+  background-image: url(./static/search.svg);
   background-color: #FF3E79;
   width: 40px;
   height: 40px;
@@ -1164,7 +1164,7 @@ div.swiper-slide--3 {
   margin: 10px; }
 
 .menu__bottom--button--chat {
-  background-image: url(/src/img/chat.svg);
+  background-image: url(./static/chat.svg);
   background-color: #FF3E79;
   width: 40px;
   height: 40px;
@@ -1177,7 +1177,7 @@ div.swiper-slide--3 {
   margin: 10px; }
 
 .menu__bottom--button--profile {
-  background-image: url(/src/img/profile.svg);
+  background-image: url(./static/profile.svg);
   background-color: #FF3E79;
   width: 40px;
   height: 40px;
