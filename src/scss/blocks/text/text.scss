@@ -1,0 +1,64 @@
+.full--4 {
+  min-height: 360px;
+}
+
+.button-show-hide--4 {
+  .show-to-hide--4 {
+    display: visible;
+  }
+
+  .hide-to-show--4 {
+    display: none;
+  }
+}
+
+.show-hide--4 {
+  .show-to-hide--4 {
+    display: none;
+  }
+
+  .hide-to-show--4 {
+    display: visible;
+  }
+}
+
+.show-arrow--4 {
+  background-image: url(../img/showarrow.svg);
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 7.41px;
+  height: 10.29px;
+  border: none;
+  padding-top: 4px;
+}
+
+.hide-arrow--4 {
+  background-image: url(../img/hidearrow.svg);
+  background-size: contain;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 7.41px;
+  height: 10.29px;
+  border: none;
+  padding-top: 4px;
+}
+
+.show-hide-arrow--4:hover {
+  cursor: pointer;
+}
+.button-alignment--4 {
+  display: flex;
+  margin-left: 45px;
+}
+
+#hide--4 {
+  border: none;
+  background-color: transparent;
+}
+
+#hide--4:hover {
+  cursor: pointer;
+}

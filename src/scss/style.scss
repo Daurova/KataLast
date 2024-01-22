@@ -1,0 +1,35 @@
+@import './blocks/variables/variables.scss';
+@import './blocks/menu/menu.scss';
+@import './blocks/left-container/left-container.scss';
+@import './blocks/swipers/swipers.scss';
+@import './blocks/footer/footer.scss';
+@import './blocks/buttons/button.scss';
+@import './blocks/text/text.scss';
+//@import './style3.scss';
+
+
+@font-face {
+  font-family: 'TTLakes';
+  src: local('TTLakes'), local('TTLakes'),
+    url('../fonts/TTLakes-Medium.woff') format('woff'),
+    url('../fonts/TTLakes-Medium.ttf') format('ttf'),
+    url('../fonts/TTLakes-Bold.woff') formal('woff'),
+    url('../fonts/TTLakes-Bold.ttf') format('ttf'),
+    url('../fonts/TTLakes-Regular.woff') format('woff'),
+    url('../fonts/TTLakes-Regular.ttf') format('ttf');
+  font-weight: normal;
+}
+
+body {
+  font-family: TTLakes;
+  background-color: $white;
+  width: 100%;
+  box-sizing: content-box;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  position: relative;
+  margin: auto;
+  }
+

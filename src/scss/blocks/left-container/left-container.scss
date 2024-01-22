@@ -1,0 +1,344 @@
+.left-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.modal-menu {
+  background-color: $white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -3000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: $white;
+  box-shadow: 20px $grey-font;
+  
+  &__top{
+  background: $white;
+ }}
+
+.modal-right {
+  max-width: 320px;
+  background-color: $white;
+  box-shadow: 5px 0 20px $background-color;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  //min-height: 670px;
+  min-width: 320px;
+  height: max-content;
+  justify-content: flex-start;
+  height: 1024px;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 3000px;
+  z-index: 5;
+  
+ &--tel {
+  max-width: 320px;
+  background-color:$white;
+  box-shadow: 5px 0 20px $grey-font;
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  height: max-content;
+  justify-content: flex-start;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 3000px;
+  z-index: 5;
+  }}
+ 
+.menu-side {
+  display: flex;
+  justify-content: space-between;
+  height: 55px;
+}
+.input-form {
+  border-radius: 0.5rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  height: 48px;
+  width: 288px;
+  border: 1px solid $grey-font;
+}
+.text-form {
+  border-radius: 0.5rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-color: $grey-font;
+  width: 288px;
+}
+.text-link {
+  text-decoration: none;
+  color: $button-color;
+}
+.button-send {
+  height: 32px;
+  width: 107px;
+  background-color: $button-color;
+  border-radius: 0.5rem;
+  padding-left: 15px;
+  color: $white;
+  margin-left: 10px;
+}
+
+.logo-button-go--white {
+  background-image: url('/src/img/dropdownwhite.svg');
+  background-color: transparent;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  border: none;
+}
+.under-text {
+  font-size: smaller;
+  margin-left: 10px;
+}
+
+.outer-wrapper {
+  background-color: $background-color;
+}
+
+/*open modals*/
+
+.modal-menu--open {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.modal-right--open {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -100vw;
+  min-width: 320px;
+  background-color: $white;
+  box-shadow: 5px 0 20px $grey-font;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 0px;
+  max-width: 320px;
+  justify-content: flex-start;
+}
+
+.modal-right--tel--open {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -100vw;
+  min-width: 320px;
+  background-color: $white;
+  box-shadow: 5px 0 20px $grey-font;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  padding: 0px;
+  max-width: 320px;
+  justify-content: flex-start;
+}
+
+//media start
+@media (min-width: 1366px) {
+  .left-container {
+    display: flex;
+    max-width: 320px;
+  }
+  .remove--burger {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .modal-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .margin {
+    margin-left: 350px;
+  }
+
+  .close-side {
+    display: visible;
+  }
+  .outer-wrapper {
+    padding-left: 300px;
+  }
+  .menu__left--button--cross {
+    position:absolute;
+    right: 350px;
+    top: 0;
+  }
+  .remove--burger {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .modal-menu {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+  }
+}
+//media end
+.services-nav{
+&__list {
+  list-style-type: none;
+  padding: 0; }
+
+&__link,
+&__link--repair {
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  color: $black;
+  line-height: 2.2em;
+  padding-left: 15px; }
+
+&__link:hover {
+  border: 3px solid $errows-and-focus-color;
+  cursor: pointer; }
+
+&__link:focus {
+    border-left: 4px solid $errows-and-focus-color;
+    color: $grey-font;
+  }}
+  
+  .blurred{
+    height: 1000px;
+    width: 100vw;
+    background-color: $blurred-color;
+    position: fixed;
+    top:0;
+    bottom:0;
+  }
+  .open-blurred {
+    display: visible;
+    z-index: 1;
+  }
+
+  .close-blurred {
+    display: none;
+  }
+  
+
+
+  .menu-foot {
+    padding-bottom: 40px;
+  
+  &__bottom {
+    display: flex;
+  }
+  &__mail,
+  &__tel,
+  &__lang {
+    margin-left: 15px;
+    margin-top: 1em;
+    text-decoration: none;
+  }
+  &__lang:hover {
+    cursor: pointer;
+  }
+  &__lang a,
+  &__tel a,
+  &__mail a {
+    text-decoration: none;
+    color: $black;
+  }
+  *__lang a:focus {
+    color: $grey-font;
+    cursor: pointer;
+  }
+  &__tel {
+    font-weight: bold;
+  }
+}
+
+  @keyframes showmodal{
+    0%{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -3000px;
+    }
+    100% {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;    }
+  }
+  @keyframes hidemodal{
+    0%{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;  
+    }
+    100% {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -3000px;    }
+  }
+
+
+  .animation--open{
+    animation: showmodal 1s ease-in-out;
+  }
+  .animation--close{
+    animation: hidemodal 1s ease-in-out;
+  }
+
+  
+  @keyframes showmodal2{
+    0%{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 3000px;
+    }
+    100% {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -100vw;    }
+  }
+
+  @keyframes hidemodal2{
+    0%{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: -100vw;  
+    }
+    100% {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 3000px;    }
+  }
+
+
+  .animation--open--2{
+    animation: showmodal2 1s ease-in-out;
+  }
+  .animation--close--2{
+    animation: hidemodal2 1s ease-in;
+  } 

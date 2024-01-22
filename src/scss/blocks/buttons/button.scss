@@ -1,0 +1,117 @@
+.menu__left {
+  &--button--logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
+    background-image: url(/src/img/Grouplogo.svg);
+    width: 97px;
+    height: 51px;
+    border: none;
+    margin: 10px;
+  }
+
+  &--button--cross {
+    background-image: url(/src/img/cross.svg);
+    background-color: $button-color;
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+}
+
+.menu__right {
+  &--button--search {
+    background-image: url(/src/img/search.svg);
+    background-color: $button-color;
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 15px;
+  }
+}
+
+.menu__bottom {
+  &--button--tel {
+    background-image: url(/src/img/call.svg);
+    background-color: $button-color;
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  &--button--chat {
+    background-image: url(/src/img/chat.svg);
+    background-color: $button-color;
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+
+  &--button--profile {
+    background-image: url(/src/img/profile.svg);
+    background-color: $button-color;
+    width: 40px;
+    height: 40px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+}
+
+button[class*="button"] {
+  transition: -webkit-filter 500ms linear 50ms;
+  transition: filter 500ms linear 50ms;
+  transition: filter 500ms linear 50ms, -webkit-filter 500ms linear 50ms; }
+
+button[class*="button"]:hover {
+  -webkit-filter: sepia(100%);
+          filter: sepia(100%);
+  cursor: pointer; }
+ 
+label:hover{
+  cursor: pointer;
+  -webkit-filter: sepia(100%);
+  filter: sepia(100%);
+  }
+  .logo-button-go--border--none{
+    border:none;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-top: 8px;
+    background-image: url(../img/dropdownpink.svg);
+    background-size: auto;
+    }
+    .logo-button-go--border--none:hover {
+      cursor: pointer;
+    }
