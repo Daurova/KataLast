@@ -313,7 +313,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  box-shadow: 20px #7E7E82; }
+  box-shadow: 3px 20px 20px  #7E7E82 }
   .modal-menu__top {
     background: white; }
 
