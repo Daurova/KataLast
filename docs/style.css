@@ -177,6 +177,8 @@
     flex-wrap: nowrap; }
   .text__read label {
     padding-top: 20px; }
+  .modal-menu{  
+    box-shadow: 3px 20px 20px  #7E7E82}
   .menu__cont {
     display: flex;
     align-items: center; }
@@ -313,7 +315,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   background-color: white;
-  box-shadow: 3px 20px 20px  #7E7E82 }
+  }
   .modal-menu__top {
     background: white; }
 
